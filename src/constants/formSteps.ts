@@ -9,7 +9,6 @@ import { dbaSchema } from "@/schemas/dbaSchema";
 import { businessProfileSchema } from "@/schemas/businessProfileSchema";
 import { ownerSchema } from "@/schemas/ownerSchema";
 
-// ✅ Aquí defines el tipo sin importarte a ti mismo
 export interface FormStep<T extends Maybe<AnyObject> = AnyObject> {
   title: string;
   description: string;
